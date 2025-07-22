@@ -36,7 +36,9 @@ Returns final Phishing or Legitimate result with probability
 
 📥 Setup
 git clone [https://github.com/yourusername/image-phishing-detector.git](https://github.com/trax2020/phishing_detection_model.git)
+
 cd image-phishing-detector
+
 pip install -r requirements.txt
 
 
