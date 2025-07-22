@@ -35,7 +35,7 @@ Returns final Phishing or Legitimate result with probability
 
 
 📥 Setup
-git clone https://github.com/yourusername/image-phishing-detector.git
+git clone [https://github.com/yourusername/image-phishing-detector.git](https://github.com/trax2020/phishing_detection_model.git)
 cd image-phishing-detector
 pip install -r requirements.txt
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 Run API:
 python api.py
 Example API call:
-http://127.0.0.1:5000/predict?url=https://example.com
+http://127.0.0.1:8000/predict?url=https://example.com
 result = predict_url("https://example.com")
 print(result)
 
