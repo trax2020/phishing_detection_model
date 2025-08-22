@@ -41,9 +41,13 @@ Flask or FastAPI (optional API server)
 
 🖼️ How It Works
 Input URL → Screenshot captured
+
 CNN extracts features & predicts
+
 SCD features → Random Forest predicts
+
 Fusion Layer combines CNN and RF outputs
+
 Returns final Phishing or Legitimate result with probability
 
 
